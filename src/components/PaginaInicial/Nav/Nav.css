@@ -1,0 +1,17 @@
+.linkItem {
+    text-decoration: none;
+    color: white;
+}
+
+.StatusItem {
+    text-decoration: none;
+    color: #3f51b5;
+}
+
+.linkItem-logout {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 740px;
+    
+ }

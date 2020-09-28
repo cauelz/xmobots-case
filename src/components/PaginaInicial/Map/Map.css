@@ -1,0 +1,11 @@
+.map {
+    text-align: center;
+    position: relative;
+    top: 10px;
+    left: 400px;
+}
+
+.titulo {
+    text-align: center;
+    color: teal;
+}
