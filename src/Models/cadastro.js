@@ -1,8 +1,8 @@
 function validarSenha(password, passwordConfirmation) {
-    if (password !== passwordConfirmation && (password.length < 4 || password.length > 72) ) {
-        return false;
+    if (password !== passwordConfirmation) {
+        return {status:true, text:"As senhas precisam ser iguais"};
     } else {
-        return true;
+        return {status:false};
     }
 }
 
@@ -12,7 +12,18 @@ function validarEmail(email) {
 }
 
 function validarNome(nome) {
-
+    if(nome.length < 3 || nome.length > 72) {
+        return true;
+    } else {
+        return false
+    }
+}
+function validarSobrenome(sobrenome) {
+    if(sobrenome.length < 3 || sobrenome.length > 72) {
+        return true;
+    } else {
+        return false
+    }
 }
 
-export {validarEmail, validarSenha, validarNome};
+export {validarEmail, validarSenha, validarNome, validarSobrenome};

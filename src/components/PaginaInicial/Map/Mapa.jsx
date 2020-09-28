@@ -1,4 +1,4 @@
-import { Typography } from '@material-ui/core';
+
 import React, { Fragment } from 'react';
 import { Map, TileLayer } from 'react-leaflet';
 import './Map.css'
